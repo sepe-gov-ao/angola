@@ -1,0 +1,25 @@
+# robots.txt para Serviços públicos de Angola
+# https://sepe-gov-ao.github.io/angola/
+
+User-agent: *
+Allow: /
+Allow: /#sobre
+Allow: /#servicos
+Allow: /#taxas
+Allow: /#legislacao
+Allow: /#comunicacao
+Allow: /#imprensa
+Allow: /#auditoria
+Allow: /#contactos
+
+# Bloquear páginas privadas
+Disallow: /admin
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*utm_*
+
+# Sitemap
+Sitemap: https://sepe-gov-ao.github.io/angola/sitemap.xml
+
+# Crawl-delay para bots agressivos
+Crawl-delay: 1
